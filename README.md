@@ -2,7 +2,7 @@
 
 Fashion-MNIST classification in PyTorch for **ECM-402: AI for Signal Processing** (NIT Andhra Pradesh). The lab treats an image as a 2-D signal and a convolutional layer as a *learned* 2-D filter. The project covers a custom CNN, a controlled ablation study, ResNet-18 transfer learning, and Grad-CAM explainability.
 
-- **GitHub:** https://github.com/<rajgigyashu-2412>/ecm402-lab4-<123110>
+- **GitHub:** https://github.com/rajgigyashu-2412/ecm402-lab4-123110/tree/main
 - **Roll no:** <123110>
 
 ## Highlights
