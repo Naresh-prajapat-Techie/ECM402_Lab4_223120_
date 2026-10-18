@@ -1,10 +1,5 @@
 # ECM-402 Lab 4: CNNs for Multi-Dimensional Signals
 
-Fashion-MNIST classification in PyTorch for **ECM-402: AI for Signal Processing** (NIT Andhra Pradesh). The lab treats an image as a 2-D signal and a convolutional layer as a *learned* 2-D filter. The project covers a custom CNN, a controlled ablation study, ResNet-18 transfer learning, and Grad-CAM explainability.
-
-- **GitHub:** https://github.com/rajgigyashu-2412/ecm402-lab4-123110/tree/main
-- **Roll no:** <123110>
-
 ## Highlights
 - Custom CNN (421,642 parameters) reaches **92.4% validation accuracy** and **91.9% test accuracy**, ahead of an MLP with a similar parameter budget (88.7% val).
 - One-factor-at-a-time ablations on pooling, depth and augmentation.
@@ -89,18 +84,4 @@ Fill these from `results/tables/efficiency_table.csv`.
 
 The most confused classes are **Shirt and T-shirt**, since sleeve length and collar are only a few pixels at 28x28.
 
-## Reproducibility
-- **Seed:** 42 (splits, stratified subset, weight initialisation, data loaders)
-- **Hardware:** Google Colab, <GPU model, e.g. NVIDIA T4>
-- **Per-epoch times:** listed in the tables above and in `results/tables/*.csv`
-- Every number in `report.pdf` comes from `python src/main.py`.
 
-## Figures
-All figures are in `results/figures/`: `task1a_filters.png`, `task2d_curves.png`, `task2e_kernels.png`, `task2e_featuremaps.png`, `task3c_depth.png`, `task3d_augmentation.png`, `task4c_strategies.png`, `task5_confusion.png`, `task6_gradcam.png`.
-
-## Notes
-- Grad-CAM heatmaps are coarse because ResNet-18's last feature map is only 2x2 at 64x64 input.
-- The optional denoising bonus task is not included.
-
-## Author
-<Gigyashu Raj>, B.Tech Biotechnology, NIT Andhra Pradesh
