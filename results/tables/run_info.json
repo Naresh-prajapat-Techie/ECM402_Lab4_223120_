@@ -1,0 +1,22 @@
+{
+  "hardware": "Tesla T4",
+  "seed": 42,
+  "epochs": 12,
+  "tl_epochs": 6,
+  "best_cnn": "CNN-2blk-max",
+  "best_tl": "differential+cosine",
+  "test": {
+    "MLP": {
+      "acc": 0.8787,
+      "f1": 0.8771174537572117
+    },
+    "Custom CNN": {
+      "acc": 0.9195,
+      "f1": 0.918755613696421
+    },
+    "ResNet-18 (differential+cosine)": {
+      "acc": 0.9073,
+      "f1": 0.907351539511741
+    }
+  }
+}
