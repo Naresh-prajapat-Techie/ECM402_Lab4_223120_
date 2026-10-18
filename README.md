@@ -2,8 +2,8 @@
 
 Fashion-MNIST classification in PyTorch for **ECM-402: AI for Signal Processing** (NIT Andhra Pradesh). The lab treats an image as a 2-D signal and a convolutional layer as a *learned* 2-D filter. The project covers a custom CNN, a controlled ablation study, ResNet-18 transfer learning, and Grad-CAM explainability.
 
-- **GitHub:** https://github.com/<your-username>/ecm402-lab4-<rollno>
-- **Roll no:** <rollno>
+- **GitHub:** https://github.com/<rajgigyashu-2412>/ecm402-lab4-<123110>
+- **Roll no:** <123110>
 
 ## Highlights
 - Custom CNN (421,642 parameters) reaches **92.4% validation accuracy** and **91.9% test accuracy**, ahead of an MLP with a similar parameter budget (88.7% val).
@@ -103,4 +103,4 @@ All figures are in `results/figures/`: `task1a_filters.png`, `task2d_curves.png`
 - The optional denoising bonus task is not included.
 
 ## Author
-<Your name>, B.Tech Biotechnology, NIT Andhra Pradesh
+<Gigyashu Raj>, B.Tech Biotechnology, NIT Andhra Pradesh
